@@ -50,7 +50,6 @@ plt.step(np.arange(len(decoded_bits)), decoded_bits, label='Decoded Bits', color
 plt.title('Decoded Bits')
 plt.tight_layout()
 plt.show()
-
 # Output Waveform
 ![image](https://github.com/user-attachments/assets/4546a0a5-4bd7-4997-bdaa-c98aba6cce16)
 
