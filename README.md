@@ -4,6 +4,7 @@ Write a Python program for the modulation and demodulation of ASK.
 # Tools required
 Python IDE with Numpy and Scipy
 # Program
+```
 import numpy as np
 import matplotlib.pyplot as plt
 from scipy.signal import butter, lfilter
@@ -50,6 +51,7 @@ plt.step(np.arange(len(decoded_bits)), decoded_bits, label='Decoded Bits', color
 plt.title('Decoded Bits')
 plt.tight_layout()
 plt.show()
+```
 # Output Waveform
 ![image](https://github.com/user-attachments/assets/4546a0a5-4bd7-4997-bdaa-c98aba6cce16)
 
